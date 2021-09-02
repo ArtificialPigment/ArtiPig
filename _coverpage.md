@@ -1,4 +1,4 @@
-![LOGO](初代LOGO.svg)
+![LOGO](_pic/初代LOGO.svg)
 
 # Artificial Pigm<small>3.0</small>ent
 * 破除新幻觉，得到旧幻觉
@@ -9,4 +9,4 @@
 [WechatAccount](https://mp.weixin.qq.com/s/SviNQjNAt1sC5x6bttlnYg)
 [写在前面](README)
 
-![background](川渝背景图.png)
+![background](_pic/川渝背景图.png)
