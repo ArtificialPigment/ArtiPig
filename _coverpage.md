@@ -9,4 +9,4 @@
 [WechatAccount](https://mp.weixin.qq.com/s/SviNQjNAt1sC5x6bttlnYg)
 [写在前面](README)
 
-![background](_pic/川渝背景图.png)
+![background](_pic/bg-3.png)
