@@ -16,11 +16,21 @@
       repo: '',
       themeColor: '#B42B51',
       logo: '_pic/初代LOGO.svg',
-      coverpage:true,
-      loadSidebar:true
+      coverpage: true,
+      loadSidebar: true,
+      loadNavbar: true,
+
+      search:{
+        maxAge: 86400000,
+        paths: 'path',
+        placeholder: '🔎',
+        noData: '🥲',
+        depth: 3
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>

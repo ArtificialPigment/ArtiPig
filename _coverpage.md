@@ -1,12 +1,15 @@
-![LOGO](_pic/初代LOGO.svg)
+![LOGO](_pic/initialLOGO.svg)
 
 # Artificial Pigm<small>3.0</small>ent
-* 破除新幻觉，得到旧幻觉
-- 2018.8 Ver. 1.0
-- 2019.5 Ver. 2.0
-- 2021.9 Ver. 3.0 🐝
+* 「等待尘世的驯服」
 
-[WechatAccount](https://mp.weixin.qq.com/s/SviNQjNAt1sC5x6bttlnYg)
+<!-- - 2018.8 Ver. 1.0
+- 2019.5 Ver. 2.0
+- 2021.9 Ver. 3.0 🐝 -->
+
+<img src="https://img.shields.io/badge/314-Paradise lost of pigs-red?logo=Yelp&style=plastic" alt="zy">
+
+[微信号](https://mp.weixin.qq.com/s/SviNQjNAt1sC5x6bttlnYg)
 [写在前面](README)
 
 ![background](_pic/bg-3.png)
