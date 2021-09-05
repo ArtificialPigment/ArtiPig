@@ -1,4 +1,4 @@
-<div class="animate__animated animate__flipInX"><img src="pic/initialLOGO.svg" alt="logo"></div>
+<div class="animate__animated animate__flipInX animate__delay-2s"><img src="pic/initialLOGO.svg" alt="logo"></div>
 
 # Artificial Pigm<small>3.0</small>ent
 
