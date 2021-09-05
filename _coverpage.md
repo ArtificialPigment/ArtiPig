@@ -1,4 +1,4 @@
-![LOGO](pic/initialLOGO.svg)
+<div class="animate__animated animate__flipInX"><img src="pic/initialLOGO.svg" alt="logo"></div>
 
 # Artificial Pigm<small>3.0</small>ent
 
