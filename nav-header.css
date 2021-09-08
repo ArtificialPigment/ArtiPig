@@ -1,0 +1,33 @@
+.logo-container {
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-image, .logo-text {
+    width:80%;
+    height:80%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    transition: transform .3s ease-in-out;
+}
+
+.logo-image {
+    transform: rotatey(0deg);
+    font-size: 0.6em;
+}
+
+.logo-container:hover .logo-image {
+    transform: rotatey(180deg);
+}
+
+.logo-text {
+    transform: rotatey(-180deg);
+    font-size: 0.6em;
+}
+
+.logo-container:hover .logo-text {
+    transform: rotatey(0deg);
+}

@@ -1,4 +1,7 @@
-</br>
+<div class="logo-container">
+    <div class="logo-image">人造色素出版社</div>
+    <div class="logo-text">人造色素出版社</div>
+</div>
 
 - <strong>作品归档</strong>
 
