@@ -30,9 +30,9 @@
     font-size: 10px;
     font-weight: bold;
     color: #fff;
-    position: absolute;
+    position: fixed;
     bottom: 150px;
-    right: -105px;
+    right: 0px;
     opacity: 0.8;
     transform: scaleX(0);
     transform-origin: right;
@@ -49,4 +49,10 @@
 
   #footnote-button:checked ~ .footnote {
     transform: scaleX(1);
+  }
+
+  .time-note {
+    color: var(--theme-color);
+    font-size: 0.5rem;
+    font-weight: bold;
   }
