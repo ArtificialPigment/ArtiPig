@@ -3,6 +3,7 @@
     height: 20px;
     display: inline-block;
     color: var(--theme-color);
+    opacity: .8;
     font-weight: bold;
     cursor: help;
   }
@@ -53,6 +54,7 @@
 
   .time-note {
     color: var(--theme-color);
-    font-size: 0.5rem;
+    opacity: .8;
+    font-size: 10px;
     font-weight: bold;
   }
