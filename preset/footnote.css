@@ -1,0 +1,52 @@
+.footnote-label {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: var(--theme-color);
+    font-weight: bold;
+    cursor: help;
+  }
+
+  .hdl-footnote{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding-top:2px;
+    color: #fff;
+    background-color: #655e5e;
+    border-radius: 3px;
+    font-size: 8px;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .footnote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#595959;
+    padding-left: 5px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: 150px;
+    right: -105px;
+    opacity: 0.8;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: all .5s ease-in-out;
+  }
+
+  .footnote > p {
+    margin: 0;
+  }
+
+  input[id="footnote-button"] {
+    display: none;
+  }
+
+  #footnote-button:checked ~ .footnote {
+    transform: scaleX(1);
+  }
