@@ -1,5 +1,7 @@
 * Language Version
     * [:cn: 简中](/)
-    * [:fr: français](/ver-fr/) 
-    * [:ru: pусский](/ver-ru/)
-    * [:es: español](/ver-es/)
+    * [:uk: English](/ver.en/)
+    * [:fr: Français](/ver.fr/) 
+    * [:de: Deutsch](/ver.de/)
+    * [:ru: Pусский](/ver.ru/)
+    * [:es: Español](/ver.es/)
