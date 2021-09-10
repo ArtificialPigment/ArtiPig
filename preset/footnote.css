@@ -3,22 +3,10 @@
     height: 20px;
     display: inline-block;
     color: var(--theme-color);
+    font-size: 1rem;
     opacity: .8;
     font-weight: bold;
     cursor: help;
-  }
-
-  .hdl-footnote{
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    padding-top:2px;
-    color: #fff;
-    background-color: #655e5e;
-    border-radius: 3px;
-    font-size: 8px;
-    text-decoration: none;
-    position: relative;
   }
 
   .footnote {
@@ -26,7 +14,8 @@
     justify-content: center;
     align-items: center;
     background-color:#595959;
-    padding-left: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     font-size: 10px;
@@ -41,21 +30,46 @@
     transition: all .4s ease-in-out;
   }
 
+  .A {
+    max-width: 250px;
+    bottom: 500px;
+    transform: scaleX(0); 
+    transform-origin: right;
+    transition: all .4s ease-in-out;
+  }
+  .B {
+    max-width: 180px;
+    bottom: 110px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: all .4s ease-in-out;
+  }
+  
   .footnote > p {
     margin: 0;
   }
 
-  input[id="footnote-button"] {
+  .footnote > img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    opacity: 1;
+  }
+
+  input[id^="footnote-button"] {
     display: none;
   }
 
-  #footnote-button:checked ~ .footnote {
+  #footnote-button:checked ~ .A {
+    transform: scaleX(1);
+  }
+
+  #footnote-button-2:checked ~ .B {
     transform: scaleX(1);
   }
 
   .time-note {
     color: var(--theme-color);
     opacity: .8;
-    font-size: 10px;
+    font-size: .75rem;
     font-weight: bold;
   }
