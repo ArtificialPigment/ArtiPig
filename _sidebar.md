@@ -1,7 +1,6 @@
 <div class="logo-container">
-    <div class="logo-image"><img src="pic/initialLOGO-2.svg" alt=“LOGO”><img src="pic/initialLOGO-2.svg" alt=“LOGO”><img src="pic/initialLOGO-2.svg" alt=“LOGO”></div>
-    <div class="logo-text">人造色素出版社</div>
-
+    <div class="logo-image"><img src="pic/text-logo.png" width="120px" alt=“LOGO”></div>
+    <div class="logo-text">人造色素小组</div>
 </div>
 <div class="isolate"></div>
 

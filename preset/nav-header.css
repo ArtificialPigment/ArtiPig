@@ -32,7 +32,10 @@
 
 .logo-text {
     transform: rotatey(-180deg);
-    font-size: 1.4em;
+    font-size: 1.3em;
+    font-family: wenyue;
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 
 .logo-container:hover .logo-text {
