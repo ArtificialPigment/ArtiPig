@@ -31,14 +31,14 @@
   }
 
   .A {
-    max-width: 250px;
-    bottom: 500px;
+    max-width: 50vw;
+    bottom: 350px;
     transform: scaleX(0); 
     transform-origin: right;
     transition: all .4s ease-in-out;
   }
   .B {
-    max-width: 180px;
+    max-width: 35vw;
     bottom: 110px;
     transform: scaleX(0);
     transform-origin: right;
