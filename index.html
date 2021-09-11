@@ -8,9 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="icon" href="pic/initialLOGO.svg" type="image/svg+xml">
   <link rel="stylesheet" href="preset/vue.css">
-  <link rel="stylesheet" href="preset/nav-header.css">
+  <link rel="stylesheet" href="preset/noty.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="preset/footnote.css">
+  <link rel="stylesheet" href="preset/nav-header.css">
   <style>
     @font-face {
       font-family: post-modern;
@@ -48,7 +50,7 @@
       themeColor: '#2a4b67',
       logo: 'pic/initialLOGO.svg',
       coverpage: true,
-      coverpage: ['/', '/ver.en/', '/ver.fr/', '/ver.en/', '/ver.de/'],
+      coverpage: ['/', '/ver.en/', '/ver.fr/', '/ver.en/', '/ver.de/','/ver.es/'],
       onlyCover: true,
       loadSidebar: true,
       loadNavbar: true,
@@ -59,11 +61,21 @@
         placeholder: '🔎',
         noData: '🥲',
         depth: 3
-      }
+      },
+
+      footer: {
+        copy: '</br></br><strong>Copyright © Artificial Pigment</br></strong>',
+        auth: 'Powered by DOCSIFY and NOTY',
+        style: 'font-size: 10px; text-align: center;',
+     },
+
     }
   </script>
-  <!-- Docsify v4 -->
+<!-- Docsify v4 -->
   <script src="preset/docsify.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+  <script src="preset/noty.js"></script>
+  <script src="preset/footnote.js"></script>
 </body>
 </html>

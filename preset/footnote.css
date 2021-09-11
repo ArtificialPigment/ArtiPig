@@ -1,15 +1,22 @@
-.footnote-label {
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    color: var(--theme-color);
-    font-size: 1rem;
-    opacity: .8;
-    font-weight: bold;
-    cursor: help;
-  }
+.footnote {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  color: var(--theme-color);
+  font-size: 1rem;
+  opacity: .8;
+  font-weight: bold;
+  cursor: help;
+}
 
-  .footnote {
+.time-note {
+  color: var(--theme-color);
+  opacity: .8;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+/* .footnote-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,8 +35,9 @@
     transform: scaleX(0);
     transform-origin: right;
     transition: all .4s ease-in-out;
-  }
-
+  } */
+ 
+  /* 
   .A {
     max-width: 50vw;
     bottom: 350px;
@@ -65,11 +73,4 @@
 
   #footnote-button-2:checked ~ .B {
     transform: scaleX(1);
-  }
-
-  .time-note {
-    color: var(--theme-color);
-    opacity: .8;
-    font-size: .75rem;
-    font-weight: bold;
-  }
+  } */

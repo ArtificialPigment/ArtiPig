@@ -2,11 +2,11 @@
 
 <div class="animate__animated animate__flipInX">
 
-# Pigments Artifi<small>3.0</small>ciels
+# Pig<small>3.0</small>ments Artificiels
 
 </div>
 
-* Les jettons dans un bruit infernal!
+* Les jetons dans un bruit infernal !
 
 <!-- - 2018.8 Ver. 1.0
 - 2019.5 Ver. 2.0
