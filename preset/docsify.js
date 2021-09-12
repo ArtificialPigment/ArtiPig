@@ -1931,8 +1931,8 @@
       
       isMobile &&
         on(
-          body,/*
-          'click', */
+          body,
+          'click',
           function (_) { return body.classList.contains('close') && toggle(); }
         );
     }
@@ -1973,7 +1973,7 @@
     }
   
     /**
-     * Get and active link
+     * Get and active link 
      * @param  {Object} router Router
      * @param  {String|Element} el Target element
      * @param  {Boolean} isParent Active parent

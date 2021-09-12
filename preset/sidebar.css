@@ -1,6 +1,7 @@
 .logo-container {
     height: 50px;
     width: 300px;
+    margin-bottom: 50px;
     font-size: 20px;
     position: relative;
     display: flex;
@@ -17,35 +18,33 @@
     justify-content: space-evenly;
     align-items: center;
     flex-shrink: 1;
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out; */
 }
 
-.logo-image {
+/* .logo-image {
     transform: rotatey(0deg);
     font-size: 1em;
 }
 
 .logo-container:hover .logo-image {
-    transform: rotatey(180deg);
-}
+    transform: rotatey(180deg); 
+}*/
 
 .logo-text {
-    transform: rotatey(-180deg);
-    font-size: 1.3em;
+    /* transform: rotatey(-180deg); */
+    font-size: 1.5em;
     font-family: post-modern;
     font-weight: bolder;
     letter-spacing: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
-
+/* 
 .logo-container:hover .logo-text {
     transform: rotatey(0deg);
-}
-
-.isolate{
-    height: 50px;
-}
+} */
 
 /* 以下为设置列表弹出的代码 */
 
@@ -56,7 +55,7 @@
 }
 
 .member {
-    width: 30%;
+    /* width: 30%;
     padding: .4em .4em .4em .35em;
     margin: .3em;
     border: 1px solid #595959;
@@ -64,20 +63,34 @@
     font-size: .8rem;
     font-weight: bolder;
     transition: all .2s ease-in-out;
+    text-align: center; */
+    width: 100%;
+    padding: .4em .4em .4em .35em;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+    color: inherit;
+    font-size: .8rem;
+    font-weight: bolder;
+    transition: all .2s ease-in-out;
     text-align: center;
 }
+
 
 .member:hover {
     background-color: var(--theme-color);
     color: cornsilk;
 }
 
+.member:active {
+    background-color: transparent;
+    color: inherit;
+}
+
 .work-list {
-    margin: 0 3.4em 1em 3.4em;
+    margin: .2em 3.4em 0 3.4em;
     display: none;
     flex-wrap: wrap;
     text-align: center;
-    align-content: space-around;
     align-items: center;
     justify-content: center;
 }
@@ -85,17 +98,16 @@
 .works {
     display: inline-block;
     padding: .05em .8em;
-    margin: .18em;
-    border: 1px solid #595959;
-    background-color: var(--theme-color);
-    color: cornsilk;
-    border-radius: .3em;
+    /* margin: .18em; */
+    border-right: 1px solid #eee;
+    color: inherit;
+    border-top-left-radius: .3em;
     font-size: .8rem;
     font-weight: bolder;
     transition: all .2s ease-in-out;
 }
 
 .works:hover {
-    background-color: transparent;
-    color: var(--theme-color);
+    background-color: var(--theme-color);
+    color: cornsilk;
 }
