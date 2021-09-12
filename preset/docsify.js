@@ -1928,11 +1928,11 @@
         e.stopPropagation();
         toggle();
       });
-  
+      
       isMobile &&
         on(
-          body,
-          'click',
+          body/*,
+          'click'*/, /* changed */
           function (_) { return body.classList.contains('close') && toggle(); }
         );
     }

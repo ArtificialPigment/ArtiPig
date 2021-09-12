@@ -7,7 +7,7 @@ function footnote1(){
     new Noty({
       theme: 'semanticui',
       type: 'alert',
-      text: '<div style="text-align:center;"><img src="pic/hdl-1.png" alt="游骑图"><span style="font-size: .4rem; font-weight: bold; opacity: .5;">北宋｜佚名｜《游骑图》</span></div>',
+      text: '<div style="text-align:center;"><img src="pic/hdl-1.png" alt="游骑图"><br><span style="font-size: 1.7vh; font-weight: bold; opacity: .5;">北宋｜佚名｜游骑图｜现藏故宫博物馆</span></div>',
       closeWith: ['click', 'button'],
       timeout: false,
     }).show();
@@ -18,6 +18,14 @@ function footnote2(){
         theme: 'relax',
         type: 'info',
         text: '语出杨牧《味吉尔》',
+    }).show();
+  }
+
+  function footnoteHJes1(){
+    new Noty({
+        theme: 'relax',
+        type: 'info',
+        text: 'De "Virgil" de Yang Mu',
     }).show();
   }
 
