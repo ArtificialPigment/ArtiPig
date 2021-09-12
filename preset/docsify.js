@@ -1931,8 +1931,8 @@
       
       isMobile &&
         on(
-          body/*,
-          'click'*/, /* changed */
+          body,/*
+          'click', */
           function (_) { return body.classList.contains('close') && toggle(); }
         );
     }
