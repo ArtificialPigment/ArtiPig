@@ -1,4 +1,4 @@
-<div class="animate__animated animate__flipInX"><img src="pic/initialLOGO.svg" alt="logo"></div>
+<div class="animate__animated animate__flipInX"><img src="pic/CoverLogo.svg" alt="logo"></div>
 
 <div class="animate__animated animate__flipInX">
 
