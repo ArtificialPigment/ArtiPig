@@ -1,10 +1,7 @@
-<div class="animate__animated animate__flipInX"><img src="pic/CoverLogo.svg" alt="logo"></div>
+<div class="animate__animated animate__backInDown"><img src="pic/TricolorLogo-nobg.svg" alt="logo"></div>
 
-<div class="animate__animated animate__flipInX">
 
 # 人造色素<small>3.0</small>小组
-
-</div>
 
 * 「混合成一片骚音」
 
