@@ -35,9 +35,9 @@
 .logo-text {
     /* transform: rotatey(-180deg); */
     font-size: 1.5em;
-    font-family: post-modern;
-    font-weight: bolder;
-    letter-spacing: 2px;
+    /* font-family: post-modern; */
+    font-weight: lighter;
+    letter-spacing: -1px;
     text-overflow: ellipsis;
     white-space: nowrap;
 }

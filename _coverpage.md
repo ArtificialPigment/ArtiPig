@@ -12,4 +12,4 @@
 [微信号](https://mp.weixin.qq.com/s/SviNQjNAt1sC5x6bttlnYg)
 [写在前面](README)
 
-![background](pic/bg-min-2.png)
+![background]()
