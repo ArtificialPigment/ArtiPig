@@ -531,8 +531,8 @@ section.cover p {
 section.cover h1 {
   color: inherit;
   font-size: 2rem; /* changed */
-  font-weight: 300;
-  margin: 0.625rem 0 1.8rem;
+  font-weight: 500; /* changed */
+  margin: 1.8rem 0 1.8rem; /* changed */
   position: relative;
   text-align: center;
 }
@@ -541,6 +541,7 @@ section.cover h1 a {
 }
 section.cover h1 small {
   bottom: -0.4375rem;
+  font-weight: 300; /* changed */
   font-size: 1rem;
   position: absolute;
 }
