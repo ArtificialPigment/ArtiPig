@@ -1,16 +1,6 @@
-<div class="animate__animated animate__flipInX"><img src="pic/initialLOGO.svg" alt="logo"></div>
-
-<div class="animate__animated animate__flipInX">
+<div class="animate__animated animate__backInDown"><img src="pic/TricolorLogo-nobg.svg" alt="logo"></div>
 
 # Künstliche Farbs<small>3.0</small>toffe
-
-</div>
-
-* 「混合成一片骚音」
-
-<!-- - 2018.8 Ver. 1.0
-- 2019.5 Ver. 2.0
-- 2021.9 Ver. 3.0 🐝 -->
 
 <img src="https://img.shields.io/badge/Paradise Lost-Pigs Exiled-green?logo=Yelp&style=social" alt="314">
 
