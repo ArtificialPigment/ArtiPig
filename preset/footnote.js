@@ -60,3 +60,11 @@ function footnote2(){
         text: '出自大衛鮑伊《Space Oddity》<br> 🎶Planet Earth is blue, and there’s nothing I can do🎶',
     }).show();
   }
+
+  function secretToSec(){
+    new Noty({
+        theme: 'relax',
+        type: 'info',
+        text: '我爱你',
+    }).show();
+  }
