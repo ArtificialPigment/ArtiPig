@@ -6,4 +6,16 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+#### 附：视觉变迁
+<div id="logo-history">
+    <div class="logo" id="object-1"><img src="https://z3.ax1x.com/2021/09/16/4uiKJO.jpg" alt="logo1"></div>
+    <div id="explanation-1">2018.10</div>
+    <div id="arrow-1">⇨</div>
+    <div class="logo" id="object-2"><img src="https://z3.ax1x.com/2021/09/16/4uiYwt.png" alt="logo2"></div>
+    <div id="explanation-2">2019.5</div>
+    <div id="arrow-2">⇨</div>
+    <div class="logo" id="object-3"><img src="https://z3.ax1x.com/2021/09/16/4uitTP.png" alt="logo3"></div>
+    <div id="explanation-3">2021.9</div>
+</div>
+
 !> 本网站尚在测试阶段。
