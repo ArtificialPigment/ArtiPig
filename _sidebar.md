@@ -10,10 +10,10 @@
         <a href="#/hdl/回家" class="works">回家</a>
     </div>
 
-<div class="member" ontouchstart="PushWorkListyx()"><i class="fa fa-puzzle-piece"></i>&nbsp;&nbsp;羊须</div>
+<div class="member" onclick="PushWorkListyx()"><i class="fa fa-puzzle-piece"></i>&nbsp;&nbsp;羊须</div>
     <div class="work-list" id="yx-work-list">
         <a href="#/yx/红灯" class="works">红灯</a>
-        <!-- <a href="#/yx/狐山" class="works">狐山</a> -->
+        <a href="#/yx/狐山" class="works">狐山</a>
     </div>
 
 <div class="member"><i class="fa fa-spinner"></i>&nbsp;&nbsp;里加</div>
