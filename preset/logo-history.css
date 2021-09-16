@@ -73,7 +73,7 @@ div[id^="explanation"] {
       
     #logo-history {
         display: flex;
-        width: 80%;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
