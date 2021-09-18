@@ -29,6 +29,8 @@ function footnote2(){
     }).show();
   }
 
+  // 以上为 hdl - [回家.md] 所调用。
+
   function footnoteHD1(){
     new Noty({
         theme: 'relax',
@@ -61,6 +63,8 @@ function footnote2(){
     }).show();
   }
 
+    // 以上为 yx - [红灯.md] 所调用。
+
   function secretToSec(){
     new Noty({
         theme: 'relax',
@@ -68,3 +72,5 @@ function footnote2(){
         text: '我爱你',
     }).show();
   }
+
+    // 以上为 yx - [狐狸.md] 所调用。

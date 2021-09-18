@@ -1,10 +1,6 @@
 # 写在前面
 
-Nous n'avons pas souhaité faire figurer dans ce recueil certains hommes dont les actes et les paroles ont indiscutablement marqué le siècle passé et dont l'éloquence était parfois remarquable, dans son registre. Ainsi ne trouvera-t-on pas ici les plus fameux morceaux d'Adolf Hitler ou de Benito Musolini, l'appel de Joseph Goebbels à la guerre totale ou l'encouragement de Mao Zedong soit à faire <mark>« s'épanouir cent fleurs »</mark>, soit à « tirer sur le quartier général ».
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <mark>Excepteur sint occaecat cupidatat non proident</mark>, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Like the doctor he (Freud) was, he begins from the sick, and it is difficult to tell whether the healthy is anything other than the absence of the unhealthy. It is certain that society is merely a bleak necessity to which man must adjust, but <mark>which is no fullfillment for him.</mark> The real satisfactions of eating, sexual intercourse, and sleeping are rooted in low nature, which is not yet human and gone forever. The higher things, the civilized ones, the vocations of citizen, doctor, father, and all the rest, have no natural support, and are secondary expressions. So why should one want them, since they provide only secondary satisfactions and are attained only by terrible wounds to man's nature?
 
 #### 附：视觉变迁
 <div id="logo-history">
