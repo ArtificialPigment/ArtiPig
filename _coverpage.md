@@ -1,7 +1,7 @@
 <div class="animate__animated animate__backInDown"><img src="pic/TricolorLogo-nobg.svg" alt="logo"></div>
 
 
-# 人造色素<small>3.2</small>小组
+# 人造色素<small>3.3</small>小组
 
 * 「混合成一片骚音」
 
