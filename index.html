@@ -103,6 +103,11 @@
         style: 'font-size: 10px; text-align: center;',
      },
     }
+
+    function pushout(listName) {
+      var ShowList = document.getElementById(listName).style;
+      ShowList.display = ( ShowList.display != "flex" ) ? "flex" : "none" ;
+    }
   </script>
 <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>

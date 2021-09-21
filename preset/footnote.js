@@ -1,6 +1,8 @@
 Noty.overrideDefaults({
   timeout: 5000,
   layout: 'topRight',
+  theme: 'relax',
+  type: 'info',
 })
 
 function footnote1(){
@@ -15,16 +17,12 @@ function footnote1(){
 
 function footnote2(){
     new Noty({
-        theme: 'relax',
-        type: 'info',
         text: '语出杨牧《味吉尔》',
     }).show();
   }
 
   function footnoteHJes1(){
     new Noty({
-        theme: 'relax',
-        type: 'info',
         text: 'De "Virgil" de Yang Mu',
     }).show();
   }
@@ -33,32 +31,24 @@ function footnote2(){
 
   function footnoteHD1(){
     new Noty({
-        theme: 'relax',
-        type: 'info',
         text: '成都地名，位于双流区，金桥客运站附近',
     }).show();
   }
 
   function footnoteHD2(){
     new Noty({
-        theme: 'relax',
-        type: 'info',
         text: '成都地名，位于侯武区，3号线、5号线在此换乘',
     }).show();
   }
 
   function footnoteHD3(){
     new Noty({
-        theme: 'relax',
-        type: 'info',
         text: '出自迪迦奥特曼中文版片尾曲《永远的奥特曼》<br> 🎶看那蔚蓝色的星球，是我们永远的守候🎶',
     }).show();
   }
 
   function footnoteHD4(){
     new Noty({
-        theme: 'relax',
-        type: 'info',
         text: '出自大衛鮑伊《Space Oddity》<br> 🎶Planet Earth is blue, and there’s nothing I can do🎶',
     }).show();
   }
@@ -67,8 +57,6 @@ function footnote2(){
 
   function secretToSec(){
     new Noty({
-        theme: 'relax',
-        type: 'info',
         text: '我爱你',
     }).show();
   }
