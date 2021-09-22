@@ -434,6 +434,14 @@ body.close .content {
     padding-top: 20px;
     transition: transform 250ms ease;
   }
+  .markdown-section {
+    max-width: 90%;
+    padding: 30px 10px 40px 10px;
+  }
+  .poetry-container {
+    margin: 0 0 0 6%;
+    padding: 0 5px;
+  }
   .app-nav,
   .github-corner {
     transition: transform 250ms ease-out;
@@ -748,6 +756,13 @@ body {
 .markdown-section output > :first-child {
   margin-top: 0;
 }
+
+.poetry-container > h2 {
+  margin-top: 0;
+}
+
+/* 诗歌类型的特殊排版 */
+
 .markdown-section output > :last-child {
   margin-bottom: 0;
 }
