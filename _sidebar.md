@@ -19,10 +19,12 @@
         <div class="work-list" id="ag-work-list">
             <a href="#/ag/我看尚武精神" class="works">我看“尚武精神”</a>
         </div>
-    <div class="member"><i class="fa fa-puzzle-piece"></i>&nbsp;&nbsp;午儿</div>
+    <div class="member" onclick="pushout('we-work-list')"><i class="fa fa-puzzle-piece"></i>&nbsp;&nbsp;午儿</div>
+            <div class="work-list" id="we-work-list">
+            <a href="#/yx/浮世水" class="works">浮世水</a>
+            </div> 
     <div class="member" style="text-transform:lowercase;" onclick="pushout('more-stuff')"><i class="fa fa-arrow-circle-up"></i>&nbsp;&nbsp;something bigger than ourselves</div>
         <div class="work-list" id="more-stuff">
             <a href="#/biggerThanUs/Sec's Gallery" class="works">Sec's Gallery</a> 
         </div>
-
 </div>
