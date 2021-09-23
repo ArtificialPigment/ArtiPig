@@ -1,10 +1,18 @@
 const G = [
-    'biggerThanUs/绿色系.JPG',
-    'biggerThanUs/蓝色系2.JPG',
-    'biggerThanUs/红色系.JPG',
-    'biggerThanUs/猫猫合体.jpeg',
-    'biggerThanUs/西瓜瓜.jpeg',
-    'biggerThanUs/某少女.jpeg'] ;
+    'Sec-Gallery/绿色系.JPG',
+    'Sec-Gallery/蓝色系2.JPG',
+    'Sec-Gallery/红色系.JPG',
+    'Sec-Gallery/猫猫合体.jpeg',
+    'Sec-Gallery/西瓜瓜.jpeg',
+    'Sec-Gallery/某少女.jpeg',
+    'Sec-Gallery/元元-原图.jpeg',
+    'Sec-Gallery/普鲁士蓝.jpeg',
+    'Sec-Gallery/Core.JPG',
+    'Sec-Gallery/Green Moon.jpeg',
+    'Sec-Gallery/Lemon.jpeg',
+    'Sec-Gallery/Letter.jpeg',
+    'Sec-Gallery/Simon.jpeg',
+    'Sec-Gallery/Summer Night.jpeg'] ;
 
 var gIndex = 0 ;
 

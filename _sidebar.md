@@ -16,6 +16,7 @@
             <a href="#/yx/新时代" class="works">新时代</a>
             <a href="#/yx/四不像" class="works">四不像</a>
             <a href="#/yx/狐山" class="works">狐山</a>
+            <a href="#/yx/一起玩跑跑卡丁车的夜晚" class="works">一起玩跑跑卡丁车的夜晚</a>
         </div>
     <div class="member"><i class="fa fa-spinner"></i>&nbsp;&nbsp;里加</div>
     <div class="member" onclick="pushout('ag-work-list')"><i class="fa fa-bicycle"></i>&nbsp;&nbsp;阿贵</div>

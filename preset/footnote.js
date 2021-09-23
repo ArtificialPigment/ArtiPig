@@ -55,14 +55,6 @@ function footnote2(){
 
     // 以上为 yx - [红灯.md] 所调用。
 
-  function secretToSec(){
-    new Noty({
-        text: '我爱你',
-    }).show();
-  }
-
-    // 以上为 yx - [狐狸.md] 所调用。
-
     function footnoteFSS(){
       new Noty({
         theme: 'semanticui',
@@ -70,5 +62,19 @@ function footnote2(){
         text: '<div style="text-align:center;"><img style="max-height:50vh;" src="pic/RinkoKawauchi.png" alt="RinkoKawauchi"><br><span style="font-size: 1.7vh; font-weight: bold; opacity: .5;"> 川が私を受け入れてくれた | Rinko Kawauchi | 2016 </span></div>',
         closeWith: ['click', 'button'],
         timeout: false,
+      }).show();
+    }
+
+        // 以上为 we - [浮世水.md] 所调用。
+
+    function footnoteKDC1(){
+      new Noty({
+          text: '题仿王子瓜“游戏之夜”系列',
+      }).show();
+    }
+      
+    function footnoteKDC2(){
+      new Noty({
+          text: '“踩着时间的底线，也踩着虚无的底线<br>蓝，突然向我们凹过来”<br> —— 臧棣《人在朱家角入门》',
       }).show();
     }

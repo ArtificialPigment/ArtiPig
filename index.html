@@ -30,13 +30,10 @@
   <link rel="stylesheet" href="preset/footnote.css" />
   <link rel="stylesheet" href="preset/sidebar.css" />
   <link rel="stylesheet" href="preset/logo-history.css" />
-  <link rel="stylesheet" href="biggerThanUs/gallery.css" />
+  <link rel="stylesheet" href="preset/gallery.css" />
+  <link rel="preload" href="Sec-Gallery/蓝色系2.JPG" as="image" />
+  <link rel="preload" href="Sec-Gallery/绿色系.JPG" as="image" />
   <style>
-    /* @font-face {
-      font-family: post-modern;
-      src: url(preset/WenYue-HouXianDai.otf);
-    } */
-
     .animate__animated.animate__flipInX{
       --animate-duration: 2000ms;
       --animate-delay: 350ms;
@@ -44,6 +41,10 @@
 
     a {
       text-decoration: none;
+    }
+
+    a[rel="license"] {
+      text-decoration: underline dashed;
     }
 
     mark {
@@ -98,7 +99,7 @@
       },
 
       footer: {
-        copy: '<br><br><strong>Created by Artificial Pigment<br></strong>',
+        copy: '<br><br>遵循<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>协议<br><strong>Created by Artificial Pigment<br></strong>',
         auth: 'Powered by DOCSIFY and NOTY',
         style: 'font-size: 10px; text-align: center;',
      },
@@ -114,7 +115,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <script src="//artificial-pigment-1306918327.cos.ap-nanjing.myqcloud.com/noty.min.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script> --> 
   <script src="preset/footnote.js"></script>
   <script src="preset/Gallery.js"></script>
 </body>
