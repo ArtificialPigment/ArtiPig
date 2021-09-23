@@ -761,6 +761,10 @@ body {
   margin-top: 0;
 }
 
+.poetry-container > a + h2 {
+  margin-top: 1.5rem;
+}
+
 /* 诗歌类型的特殊排版 */
 
 .markdown-section output > :last-child {

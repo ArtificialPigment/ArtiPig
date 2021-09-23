@@ -1,4 +1,5 @@
 const G = [
+    'https://z3.ax1x.com/2021/09/23/4w0i2q.jpg',
     'Sec-Gallery/绿色系.JPG',
     'Sec-Gallery/蓝色系2.JPG',
     'Sec-Gallery/红色系.JPG',
@@ -12,9 +13,10 @@ const G = [
     'Sec-Gallery/Lemon.jpeg',
     'Sec-Gallery/Letter.jpeg',
     'Sec-Gallery/Simon.jpeg',
-    'Sec-Gallery/Summer Night.jpeg'] ;
+    'Sec-Gallery/Summer Night.jpeg',
+    'Sec-Gallery/final-false.gif'] ;
 
-var gIndex = 0 ;
+let gIndex = 0 ;
 
 function frontANDback(Id){
     if(Id === 'peB'){
