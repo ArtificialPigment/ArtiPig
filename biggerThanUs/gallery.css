@@ -1,0 +1,41 @@
+.g-shell {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+}
+
+#g-main {
+    position: absolute;
+    background-image: url("https://z3.ax1x.com/2021/09/23/4w0i2q.jpg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    height: 70vh;
+    width: 100%;
+}
+
+.g-button {
+    position: absolute;
+    top: 35vh;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: .5rem;
+    border: 1px solid #eee;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+}
+
+.g-button:hover {
+    background-color: var(--theme-color);
+    transition: all .2s ease-in-out;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}

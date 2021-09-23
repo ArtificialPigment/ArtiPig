@@ -12,6 +12,9 @@
     <div class="member" onclick="pushout('yx-work-list')"><i class="fa fa-puzzle-piece"></i>&nbsp;&nbsp;羊须</div>
         <div class="work-list" id="yx-work-list">
             <a href="#/yx/红灯" class="works">红灯</a>
+            <a href="#/yx/渐强的轻盈" class="works">渐强的轻盈</a>
+            <a href="#/yx/新时代" class="works">新时代</a>
+            <a href="#/yx/四不像" class="works">四不像</a>
             <a href="#/yx/狐山" class="works">狐山</a>
         </div>
     <div class="member"><i class="fa fa-spinner"></i>&nbsp;&nbsp;里加</div>

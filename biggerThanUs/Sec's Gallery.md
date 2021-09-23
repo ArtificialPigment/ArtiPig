@@ -2,12 +2,8 @@
 
 !> <i class="fa fa-toggle-off"></i>&nbsp;&nbsp;页面建设中
 
-<div class="fakeBody">
-    <div class="scene" style="--rotatePercent: 0">
-    <div class="cube">
-        <div class="face face-left"></div>
-        <div class="face face-front"></div>
-        <div class="face face-right"></div>
-    </div>
-    </div>
+<div class="g-shell">
+    <div id="g-main"></div>
+    <button class="g-button prev" onclick="frontANDback('peB')"><i class="fa fa-chevron-left"></i></button>
+    <button class="g-button next" onclick="frontANDback('neB')"><i class="fa fa-chevron-right"></i></button>
 </div>
