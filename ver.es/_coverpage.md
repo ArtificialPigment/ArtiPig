@@ -7,6 +7,6 @@
 <img src="https://img.shields.io/badge/Paraíso Perdido-Porcinos Exiliados-green?logo=Aiqfome&style=social" alt="314">
 
 [Cuenta de WeChat](https://mp.weixin.qq.com/s/SviNQjNAt1sC5x6bttlnYg)
-[Prólogo](README)
+[Prólogo](ver.es/README)
 
 ![background](pic/bg-min-2.png)
