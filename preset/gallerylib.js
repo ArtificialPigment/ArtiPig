@@ -19,12 +19,9 @@ const G = [
 let gIndex = 0 ;
 
 function frontANDback(Id){
-    if(Id === 'peB'){
-        (gIndex > 0) ? gIndex -= 1 : gIndex = G.length - 1 ;
-    } else {
-        (gIndex < G.length - 1 ) ? gIndex += 1 : gIndex = 0 ;
-    } ;
-    var GMain = document.getElementById("g-main").style ;
+    if(Id === 'peB'){ (gIndex > 0) ? gIndex -= 1 : gIndex = G.length - 1 ;}
+    else { (gIndex < G.length - 1 ) ? gIndex += 1 : gIndex = 0 ; } ;
+    let GMain = document.getElementById("g-main").style ;
     GMain.setProperty('background-image', `url(${G[gIndex]})`) ;
 }
 

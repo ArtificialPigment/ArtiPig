@@ -32,8 +32,7 @@
   <link rel="stylesheet" href="preset/sidebar.css" />
   <link rel="stylesheet" href="preset/logo-history.css" />
   <link rel="stylesheet" href="preset/gallery.css" />
-  <link rel="preload" href="Sec-Gallery/蓝色系2.JPG" as="image" />
-  <link rel="preload" href="Sec-Gallery/绿色系.JPG" as="image" />
+  <link rel="preload" href="https://z3.ax1x.com/2021/09/23/4w0i2q.jpg" as="image" />
   <style>
     .animate__animated.animate__flipInX{
       --animate-duration: 2000ms;
@@ -100,11 +99,20 @@
         auth: 'Created by Artificial Pigment',
         style: 'font-size: 10px; text-align: center;',
      },
-    }
 
-    function pushout(listName) {
-      var ShowList = document.getElementById(listName).style;
-      ShowList.display = ( ShowList.display != "flex" ) ? "flex" : "none" ;
+      plugins: [
+        function(hook, vm) {
+
+          hook.doneEach( function() {
+            var pushBtn = document.querySelectorAll('.member');
+            for (let i = 1 ; i < pushBtn.length ; i++) {
+                pushBtn[i].addEventListener('click', function(e){
+                let targetList = e.target.nextSibling.nextSibling.style;
+                targetList.display = (targetList.display != 'flex') ? 'flex' : 'none';} );
+            }; }
+          );
+        }
+      ],
     }
   </script>
 <!-- Docsify v4 -->
@@ -113,6 +121,6 @@
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <script src="//artificial-pigment-1306918327.cos.ap-nanjing.myqcloud.com/noty.min.js"></script>
   <script src="preset/footnote.js"></script>
-  <script src="preset/Gallery.js "></script>
+  <script src="preset/gallerylib.js "></script>
 </body>
 </html>
