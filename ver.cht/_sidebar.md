@@ -29,6 +29,7 @@
             </div> 
     <div class="member" style="text-transform:lowercase;" onclick="pushout('more-stuff')"><i class="fa-solid fa-arrow-circle-up"></i>&nbsp;&nbsp;something bigger than ourselves</div>
         <div class="work-list" id="more-stuff">
-            <a href="#/biggerThanUs/Sec's Gallery" class="works">Sec's Gallery</a> 
+            <a href="#/biggerThanUs/Sec's Gallery" class="works">Sec's Gallery</a>
+            <a href="#/biggerThanUs/DevTool" class="works">本站开发组件</a>
         </div>
 </div>

@@ -4,7 +4,7 @@
 </div>
 
 <div class="new-sidebar">
-    <a href="#/README" class="member"><i class="fa-solid fa-bug"></i>&nbsp;&nbsp;Preface</a>
+    <a href="#/README" class="member"><i class="fa-solid fa-dumpster-fire"></i>&nbsp;&nbsp;Preface</a>
     <div class="member" onclick="pushout('hdl-work-list')"><i class="fa-solid fa-street-view"></i>&nbsp;&nbsp;Hadrien</a></div>
         <div class="work-list" id="hdl-work-list">
             <a href="#/hdl/回家" class="works">回家</a>
@@ -19,7 +19,7 @@
             <a href="#/yx/狐山" class="works">狐山</a>
             <a href="#/yx/一起玩跑跑卡丁车的夜晚" class="works">一起玩跑跑卡丁车的夜晚</a>
         </div>
-    <div class="member"><i class="fa-solid fa-spinner fa-spin-fulse"></i>&nbsp;&nbsp;Li'Jia</div>
+    <div class="member"><i class="fa-solid fa-spinner fa-spin-pulse"></i>&nbsp;&nbsp;Li'Jia</div>
     <div class="member" onclick="pushout('ag-work-list')"><i class="fa-solid fa-bicycle"></i>&nbsp;&nbsp;A'Gui</div>
         <div class="work-list" id="ag-work-list">
             <a href="#/ag/我看尚武精神" class="works">我看“尚武精神”</a>
@@ -30,6 +30,7 @@
             </div> 
     <div class="member" style="text-transform:lowercase;" onclick="pushout('more-stuff')"><i class="fa-solid fa-arrow-circle-up"></i>&nbsp;&nbsp;something bigger than ourselves</div>
         <div class="work-list" id="more-stuff">
-            <a href="#/biggerThanUs/Sec's Gallery" class="works">Sec's Gallery</a> 
+            <a href="#/biggerThanUs/Sec's Gallery" class="works">Sec's Gallery</a>
+            <a href="#/biggerThanUs/DevTool" class="works">本站开发组件</a>
         </div>
 </div>
