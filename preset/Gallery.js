@@ -24,6 +24,12 @@ function frontANDback(Id){
     } else {
         (gIndex < G.length - 1 ) ? gIndex += 1 : gIndex = 0 ;
     } ;
+    var GMain = document.getElementById("g-main").style ;
+    GMain.setProperty('background-image', `url(${G[gIndex]})`) ;
+}
+
+function imgRandom(){
+    gIndex = Math.floor(Math.random() * G.length);
     let GMain = document.getElementById("g-main").style ;
     GMain.setProperty('background-image', `url(${G[gIndex]})`) ;
 }
