@@ -1,5 +1,4 @@
 <div class="logo-container">
-    <!-- <div class="logo-image"><img src="pic/text-logo.png" width="120px" alt=“LOGO”></div> -->
     <div class="logo-text">Artificial Pigment</div>
 </div>
 
@@ -7,7 +6,7 @@
     <a href="#/README" class="member"><i class="fa-solid fa-dumpster"></i>&nbsp;&nbsp;Prólogo</a>
     <div class="member"><i class="fa-solid fa-street-view"></i>&nbsp;&nbsp;Hadrien</a></div>
         <div class="work-list" id="hdl-work-list">
-            <a href="#/ver.es/回家" class="works">Volver a casa</a>
+            <a href="#/hdl/回家" class="works">回家</a>
             <a href="#/hdl/罗马之落" class="works">罗马之落</a>
         </div>  
     <div class="member"><i class="fa-solid fa-puzzle-piece"></i>&nbsp;&nbsp;Yang'Xu</div>
@@ -16,6 +15,8 @@
             <a href="#/yx/渐强的轻盈" class="works">渐强的轻盈</a>
             <a href="#/yx/新时代" class="works">新时代</a>
             <a href="#/yx/四不像" class="works">四不像</a>
+            <a href="#/yx/二十二岁离开猪猪乐园" class="works">二十二岁离开猪猪乐园</a>
+            <a href="#/yx/肪波堤" class="works">肪波堤</a>
             <a href="#/yx/狐山" class="works">狐山</a>
             <a href="#/yx/一起玩跑跑卡丁车的夜晚" class="works">一起玩跑跑卡丁车的夜晚</a>
         </div>

@@ -1,6 +1,6 @@
 <div class="animate__animated animate__backInDown"><img src="pic/TricolorLogo-nobg.svg" alt="logo"></div>
 
-# Pig<small>3.0</small>mentos Artificiales
+# Pig<small>0.3.14</small>mentos Artificiales
 
 * se sumergen en un ruido de fondo
 

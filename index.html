@@ -39,14 +39,9 @@
       --animate-delay: 350ms;
     }
 
-    a {
-      text-decoration: none;
-    }
-
-    a[rel="license"] {
-      text-decoration: underline dashed;
-    }
-
+    a { text-decoration: none; }
+    a[rel="license"] { text-decoration: underline dashed; }
+    .order { display: none;}
     mark {
       background-color: var(--theme-color);
       color: cornsilk;
@@ -104,12 +99,27 @@
         function(hook, vm) {
 
           hook.doneEach( function() {
-            var pushBtn = document.querySelectorAll('.member');
+            const pushBtn = document.querySelectorAll('.member');
             for (let i = 1 ; i < pushBtn.length ; i++) {
-                pushBtn[i].addEventListener('click', function(e){
-                let targetList = e.target.nextSibling.nextSibling.style;
-                targetList.display = (targetList.display != 'flex') ? 'flex' : 'none';} );
-            }; }
+              pushBtn[i].addEventListener('click', (e) => {
+              let targetList = e.target.nextSibling.nextSibling.style;
+              targetList.display = (targetList.display != 'flex') ? 'flex' : 'none';} );
+            }; 
+
+            const orderNum = Number(document.querySelector('.order').innerText) - 1 ; // 依据文章order，在footnote的大数组中定位对应集合
+            
+            const yxAppendix = document.querySelectorAll('.YX'); // 获取注释序号，得到数组
+            for (let t = 0; t < yxAppendix.length ; t++) {
+              yxAppendix[t].addEventListener('click', () => {
+              new Noty({ text: yxGlobalArrs[orderNum][t], }).show();
+            })};
+
+            const hdlAppendix = document.querySelectorAll('.HDL');
+            for (let t = 0; t < hdlAppendix.length ; t++) {
+              hdlAppendix[t].addEventListener('click', () => {
+              new Noty({ text: hdlGlobalArrs[orderNum][t], }).show();
+            })};
+          }
           );
         }
       ],
@@ -120,7 +130,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <script src="//artificial-pigment-1306918327.cos.ap-nanjing.myqcloud.com/noty.min.js"></script>
-  <script src="preset/footnote.js"></script>
-  <script src="preset/gallerylib.js "></script>
+  <script src="preset/notes-lib.js"></script>
 </body>
 </html>

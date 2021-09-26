@@ -8,13 +8,15 @@
         <div class="work-list">
             <a href="#/hdl/回家" class="works">回家</a>
             <a href="#/hdl/罗马之落" class="works">罗马之落</a>
-        </div>  
+        </div>
     <div class="member"><i class="fa-solid fa-puzzle-piece"></i>&nbsp;&nbsp;羊须</div>
         <div class="work-list">
             <a href="#/yx/红灯" class="works">红灯</a>
             <a href="#/yx/渐强的轻盈" class="works">渐强的轻盈</a>
             <a href="#/yx/新时代" class="works">新时代</a>
             <a href="#/yx/四不像" class="works">四不像</a>
+            <a href="#/yx/二十二岁离开猪猪乐园" class="works">二十二岁离开猪猪乐园</a>
+            <a href="#/yx/肪波堤" class="works">肪波堤</a>
             <a href="#/yx/狐山" class="works">狐山</a>
             <a href="#/yx/一起玩跑跑卡丁车的夜晚" class="works">一起玩跑跑卡丁车的夜晚</a>
         </div>
