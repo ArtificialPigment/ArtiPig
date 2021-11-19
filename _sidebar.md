@@ -11,6 +11,7 @@
         </div>
     <div class="member"><i class="fa-solid fa-puzzle-piece"></i>&nbsp;&nbsp;羊须</div>
         <div class="work-list">
+            <a href="#/yx/付教授" class="works">付教授</a>
             <a href="#/yx/红灯" class="works">红灯</a>
             <a href="#/yx/渐强的轻盈" class="works">渐强的轻盈</a>
             <a href="#/yx/新时代" class="works">新时代</a>
